@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashcss.css">
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>
+            ART THERAPY JOURNAL
+            </h1>
+        </div>
+        <div>
+            <nav>
+                <div class="topnav" id="myTopnav">
+                    <a href="dashboard.html" class="active">HOME</a>
+                    <a href="start.html">START NOW</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">THERAPY RESOURCE
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="addiction.html">ADDICTIONS</a>
+                            <a href="personlity.html">PERSONALITY</a>
+                            <a href="anxiety.html">ANXIETY</a>
+                            <a href="depression.html">DEPRESSION</a>
+                            <a href="disorder.html">DISORDERS</a>
+                            <a href="stress.html">STRESS</a>
+                        </div>
+                    </div>
+                    <a href="">BLOG</a>
+                    <a href="account.html">MY ACCOUNT</a>
+                    <div class="search">
+                        <input type="text" name="seaech" placeholder="SEARCH HERE...">
+                        <button>
+                            <i class="fa fa-search" style="font-size: 18px;">
+                            </i>
+                        </button>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                      <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
+    </header>
+    <div class="slogan">
+        <h3 style="padding-top: 15px;padding-bottom: 15px;">
+            WELCOME TO ART THERAPY JOURNAL. WE AIM TO PRIVIDE BEST THERAPY RESOURCES
+        </h3>
+    </div>
+    <div class="heading">
+        <h2>
+            THERAPY RESOURCE
+        </h2>
+        <h4>
+            OUR ART THERAPY COVERS THE BELOW AREA:
+        </h4>
+    </div>
+    <div class="main">
+        <div class="addiction">
+            <h2 class="place"><a href="addiction.html" class="atr1">ADDICTION</a></h2>
+        </div>
+        <div class="personality">
+            <h2 class="place"><a href="personlity.html" class="atr2">PERSONALITY</a></h2>
+        </div>
+        <div class="disorders">
+            <h2 class="place"><a href="disorder.html" class="atr3">DISORDERS</a></h2>
+        </div>
+        <div class="anxiety">
+            <h2 class="place"><a href="anxiety.html" class="atr4">ANXIETY</a></h2>
+        </div>
+        <div class="depression">
+            <h2 class="place"><a href="depression.html" class="atr5">DEPRESSION</a></h2>
+        </div>
+        <div class="stress">
+            <h2 class="place"><a href="stress.html" class="atr6">STRESS</a></h2>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="links">
+            <h2>QUICK LINKS</h2>
+        </div>
+        <div class="l">
+            <div class="leftl">
+                <h3><ul class="star"><li>RESOURCES</li></ul></h3>
+                <ul class="non">
+                    <li><a href="addiction.html" class="ql">ADDICTIONS WORKBOOK</a></li>
+                    <li><a href="personlity.html" class="ql">PERSONALITY WORKBOOK</li>
+                    <li><a href="disorder.html" class="ql">DISORDERS WORKBOOK</li>
+                    <li><a href="anxiety.html" class="ql">ANXIETY WORKBOOK</li>
+                    <li><a href="depression.html" class="ql">DEPRESSION WORKBOOK</li>
+                    <li><a href="stress.html" class="ql">STRESS WORKBOOK</li>
+                </ul>
+            </div>
+            <div class="rightl">
+                <h3><ul class="star"><li>SOCIAL MEDIA</li></ul></h3>
+                <ul class="non">
+                    <div>
+                        <li><a href="" class="ql">INSTAGRAM</li>
+                            <i class="fa fa-instagram"></i>
+                    </div>
+                    <div>
+                        <li><a href="" class="ql">FACEBOOK</li>
+                            <i class="fa fa-facebook"></i>
+                    </div>
+                    <div>
+                        <li><a href="" class="ql">WHATSAPP</li>
+                            <i class="fa fa-whatsapp"></i>
+                    </div>
+                    <div>
+                        <li><a href="" class="ql">TWITTER</li>
+                            <i class="fa fa-twitter"></i>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="bot">
+            <h3>THANK YOU FOR VISITNG ART THERAPY JOURNAL</h3>
+        </div>
+    </div>
+    <footer>
+        <h3>
+            &copy; ALL RIGHTS ARE RESERVED TO ART THERAPY JOURNAL
+        </h3>
+    </footer>
+    <script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+</body>
+</html>

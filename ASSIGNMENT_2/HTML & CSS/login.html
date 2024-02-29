@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOGIN</title>
+        <style>
+            body {
+                background: rgb(238, 232, 232);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                flex-direction: column;
+            }
+
+            *{
+                font-family: cursive;
+                box-sizing: padding-box;
+            }
+
+            form {
+                width: 500px;
+                border: 3px solid rgb(176, 177, 235);
+                padding: 20px;
+                background: rgb(138, 190, 220);
+                border-radius: 20px;
+            }
+
+            h2 {
+                text-align: center;
+                margin-bottom: 40px;
+            }
+
+            input {
+                display: block;
+                border: 2px solid rgb(176, 177, 235);
+                width: 95%;
+                padding: 10px;
+                margin: 10px auto;
+                border-radius: 5px;
+            }
+
+            label {
+                color: black;
+                font-size: 18px;
+                padding: 10px;
+            }
+            a:hover{
+                color: black;
+            }
+
+            button {
+                float: right;
+                color: #ccc;
+                background: #1c1a1a;
+                padding: 10px 15px;
+                border-radius: 5px;
+                margin-right: 10px;
+                border: none;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div>
+            <h3>
+                ART  THERAPY  JOURNAL
+            </h3>
+        </div>
+        <form method="post">
+            <h2>LOGIN</h2>
+            <label>User Name</label>
+            <input type="text" name="uname"><br>
+            <label>Password</label>
+            <input type="password" name="pass"><br> 
+            <a href="registration.html">sign up</a>
+            <button type="submit" name="submit">Login</button>
+        </form>
+    </body>
+</html>
